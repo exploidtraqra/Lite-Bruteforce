@@ -6,8 +6,6 @@ Athour: anonymous
 import requests
 import os
 
-os.system('pkg install python2')
-os.system('y')
 os.system('pip2 install requests')
 os.system('y')
 os.system('pkg install figlet')
