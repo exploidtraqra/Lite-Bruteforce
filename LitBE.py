@@ -29,5 +29,5 @@ for line in x:
     print 'password found',password
     break
   else:
-    print 'password not found,password
+    print 'password not found',password
 # finis
