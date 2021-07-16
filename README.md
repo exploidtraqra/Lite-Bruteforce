@@ -10,3 +10,10 @@ A brute-force attack is a cryptanalytic attack that can, in theory, be used to a
 
 When password-guessing, this method is very fast when used to check all short passwords, but for longer passwords other methods such as the dictionary attack are used because a brute-force search takes too long. Longer passwords, passphrases and keys have more possible values and even more combinations, making them exponentially more difficult to crack than shorter ones.[2]
 </strike>
+
+INSTALLATION
+========
+
+```
+termux-setup-storage;pkg update && pkg upgrade;pkg install python2;pip2 install requests;
+```
